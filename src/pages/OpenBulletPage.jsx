@@ -267,7 +267,7 @@ const OpenBulletPage = () => {
       
       <motion.div variants={itemVariants} className="flex items-center justify-between p-2 bg-slate-900 rounded-t-md border-b border-slate-700">
         <div className="flex items-center space-x-2">
-          <span className="text-lg font-bold text-sky-400">OpenBullet Sim</span>
+          <span className="text-lg font-bold text-sky-400">Openpillow</span>
           <span className="text-xs text-slate-500">[Anomaly]</span>
         </div>
         <div className="flex space-x-1 text-slate-400">

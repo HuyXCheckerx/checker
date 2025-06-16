@@ -7,13 +7,13 @@ import { cn } from '@/lib/utils';
 
 const navItems = [
   { path: '/', label: 'Dashboard', icon: LayoutDashboard },
-  { path: '/paypal-checker', label: 'PayPal Checker', icon: ShieldCheck },
-  { path: '/hotmail-checker', label: 'Hotmail Checker', icon: Mail },
+  { path: '/paypal-checker', label: 'Palhitter', icon: ShieldCheck },
+  { path: '/hotmail-checker', label: 'Veralium Hotmail', icon: Mail },
   { path: '/smtp-checker', label: 'SMTP Checker', icon: Server },
-  { path: '/openbullet-simulator', label: 'OpenBullet Sim', icon: Bot },
+  { path: '/openbullet-simulator', label: 'Openpillow', icon: Bot },
   { type: 'divider', label: 'Tools' },
   { path: '/inbox-searcher', label: 'Inbox Searcher', icon: Search },
-  { path: '/seedphrase-scanner', label: 'SeedPhrase Scanner', icon: KeyRound },
+  { path: '/seedphrase-scanner', label: 'cloud seed scanner', icon: KeyRound },
   { type: 'divider', label: 'System' },
   { path: '/settings', label: 'Settings', icon: Settings },
 ];
@@ -46,7 +46,7 @@ const SidebarNav = () => {
     >
       <div className={`flex items-center ${isOpen ? 'p-6 justify-between' : 'p-6 justify-center'}`}>
         {isOpen && (
-          <motion.h1 variants={itemVariants} className="text-2xl font-bold text-primary tracking-tight">Checker<span className="text-accent">Suite</span></motion.h1>
+          <motion.h1 variants={itemVariants} className="text-2xl font-bold text-primary tracking-tight">Pillow<span className="text-accent">Multitool</span></motion.h1>
         )}
         <button onClick={() => setIsOpen(!isOpen)} className="p-1.5 rounded-md hover:bg-muted focus:outline-none focus:ring-2 focus:ring-primary">
           <motion.div variants={iconVariants} animate={isOpen ? "open" : "closed"}>

@@ -46,11 +46,11 @@ const DashboardPage = () => {
       <motion.div variants={itemVariants}>
         <h1 className="text-5xl font-extrabold tracking-tight mb-3">
           <span className="text-glow bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-secondary animate-gradient-flow" style={{backgroundSize: '200% auto'}}>
-            Account Checker
+            Dashboard
           </span>
         </h1>
         <p className="text-xl text-muted-foreground">
-          Welcome to your advanced account validation dashboard.
+          Check for stats here.
         </p>
       </motion.div>
 
@@ -68,11 +68,11 @@ const DashboardPage = () => {
         <h2 className="text-3xl font-semibold text-primary mb-6">Quick Actions</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
-            { label: "PayPal Checker", path: "/paypal-checker", icon: UploadCloud },
-            { label: "Hotmail Checker", path: "/hotmail-checker", icon: UploadCloud },
+            { label: "Palhitter", path: "/paypal-checker", icon: UploadCloud },
+            { label: "Veralium Hotmail", path: "/hotmail-checker", icon: UploadCloud },
             { label: "SMTP Checker", path: "/smtp-checker", icon: UploadCloud },
             { label: "Inbox Searcher", path: "/inbox-searcher", icon: Play },
-            { label: "SeedPhrase Scanner", path: "/seedphrase-scanner", icon: Play },
+            { label: "Icloud seed scanner", path: "/seedphrase-scanner", icon: Play },
           ].map(action => (
             <Button key={action.path} asChild size="lg" variant="outline" className="border-primary/30 hover:bg-primary/10 hover:text-primary hover:border-primary transition-all duration-200 group text-lg py-7">
               <Link to={action.path}>
