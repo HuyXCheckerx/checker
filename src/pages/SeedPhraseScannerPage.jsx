@@ -147,7 +147,7 @@ const SeedPhraseScannerPage = () => {
          <div className="bg-destructive/10 border border-destructive/30 rounded-lg p-4 text-destructive-foreground/80 text-sm flex items-start">
             <AlertTriangle className="w-10 h-10 sm:w-8 sm:h-8 mr-3 mt-0.5 text-destructive flex-shrink-0" />
             <div>
-            <strong className="font-semibold text-destructive-foreground">Warning:</strong> This tool is for educational purposes. Handling seed phrases is extremely risky. Never use this tool with real, valuable assets. You are responsible for your actions.
+            <strong className="font-semibold text-destructive-foreground">Warning:</strong>Experimental mode, do not run with too much bots to avoid flagging IP
             </div>
         </div>
       </motion.div>
